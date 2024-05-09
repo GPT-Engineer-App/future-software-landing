@@ -1,4 +1,5 @@
 import { Container, VStack, Heading, Text, Button, Image } from "@chakra-ui/react";
+import Footer from "../components/Footer";
 import { FaCalendarAlt, FaMapMarkerAlt, FaRocket } from "react-icons/fa";
 
 const Index = () => {
@@ -29,6 +30,7 @@ const Index = () => {
           Learn More
         </Button>
       </VStack>
+      <Footer />
     </Container>
   );
 };
