@@ -1,6 +1,6 @@
 import { Container, VStack, Heading, Text, Button, Image } from "@chakra-ui/react";
 
-import { FaCalendarAlt, FaMapMarkerAlt, FaRocket } from "react-icons/fa";
+import { FaCalendarAlt, FaMapMarkerAlt, FaRocket, FaUser } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -25,6 +25,17 @@ const Index = () => {
           <Button leftIcon={<FaMapMarkerAlt />} colorScheme="gray" variant="outline" size="md">
             Virtual Event
           </Button>
+          <VStack spacing={10} align="center" justify="center">
+            <Heading as="h2" size="xl" textAlign="center" color="teal.300">
+              Meet Our Speakers
+            </Heading>
+            <Text fontSize="lg" color="gray.500">
+              Leading experts from around the world!
+            </Text>
+            <Button leftIcon={<FaUser />} colorScheme="teal" variant="solid" size="md">
+              View Speakers
+            </Button>
+          </VStack>
         </VStack>
         <Button rightIcon={<FaRocket />} colorScheme="purple" size="lg" variant="ghost">
           Learn More
