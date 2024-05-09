@@ -8,7 +8,7 @@ const Index = () => {
         <Image src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwY2l0eXxlbnwwfHx8fDE3MTUyNjU2NDR8MA&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="lg" boxSize="400px" objectFit="cover" alt="Futuristic City" />
         <VStack spacing={3}>
           <Heading as="h1" size="2xl" textAlign="center" color="teal.300">
-            The Future of Software
+            Software 3.0
           </Heading>
           <Text fontSize="xl" color="gray.500">
             Explore the next generation of software innovations!
