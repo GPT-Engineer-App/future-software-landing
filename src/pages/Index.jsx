@@ -1,4 +1,4 @@
-import { Container, VStack, Heading, Text, Button, Image } from "@chakra-ui/react";
+import { Container, VStack, Heading, Text, Button, Image, Link } from "@chakra-ui/react";
 
 import { FaCalendarAlt, FaMapMarkerAlt, FaRocket, FaUser } from "react-icons/fa";
 
@@ -39,6 +39,9 @@ const Index = () => {
         </VStack>
         <Button rightIcon={<FaRocket />} colorScheme="purple" size="lg" variant="ghost">
           Learn More
+        </Button>
+        <Button as={Link} to="/articles" colorScheme="teal" size="md" variant="solid">
+          View Top Articles
         </Button>
       </VStack>
     </Container>
